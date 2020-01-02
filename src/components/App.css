@@ -1,0 +1,15 @@
+.wrapper {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.link {
+    cursor: pointer;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.selected {
+    color: rgb(255, 115, 0);
+}

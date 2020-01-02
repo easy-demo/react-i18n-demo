@@ -1,0 +1,23 @@
+{
+  "name": "react-i18n-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:easy-demo/react-i18n-demo.git",
+  "author": "范文华 <531362022@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-genius start"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-i18n-chain": "^0.0.17"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "^3.7.4",
+    "webpack-genius": "4.11.4"
+  }
+}
