@@ -6472,10 +6472,10 @@ react-error-overlay@^6.0.3, react-error-overlay@^6.0.4:
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.4.tgz#0d165d6d27488e660bc08e57bdabaad741366f7a"
   integrity sha512-ueZzLmHltszTshDMwyfELDq8zOA803wQ1ZuzCccXa1m57k1PxSHfflPD5W9YIiTXLs0JTLzoj6o1LuM5N6zzNA==
 
-react-i18n-chain@^0.0.17:
-  version "0.0.17"
-  resolved "https://registry.npmjs.org/react-i18n-chain/-/react-i18n-chain-0.0.17.tgz#abb1ea1f18fb7c9f2799caaff34930bc618dfcf5"
-  integrity sha512-ORsw3PHUiI/uK5MrDDYh9FgS2T2nDP4lC1bj6bbM2sVEnbvunNGRRM9yy9XT6CBPSHgoCPqMnXmIET5aQbwQOQ==
+react-i18n-chain@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/react-i18n-chain/-/react-i18n-chain-0.1.0.tgz#c6b73495155c9781f315524e942891227a421bd6"
+  integrity sha512-XywT9HdPd6ckhKFlBJWVznhPM49PsvWflK1rF88lvwFipdwkmJXiTqDWpm96XC95ELSek0UA9XkAgtyE6H0ysQ==
   dependencies:
     hoist-non-react-statics "^3.3.1"
     tslib "^1.10.0"
