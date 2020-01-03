@@ -3,8 +3,9 @@ import { useI18n } from 'react-i18n-chain';
 import i18n from '../i18n';
 
 const HooksProfile: FunctionComponent = () => {
-    const chain = useI18n(i18n);
-    const message = chain.profile.info({
+    useI18n(i18n);
+
+    const message = i18n.profile.info({
         name: 'Tom',
     });
 

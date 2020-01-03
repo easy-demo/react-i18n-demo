@@ -5,7 +5,7 @@ import moment from 'moment';
 
 class ClassToday extends PureComponent {
     render() {
-        const today = i18n.chain.today({
+        const today = i18n.today({
             time: moment(),
         });
 
