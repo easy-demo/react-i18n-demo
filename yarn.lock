@@ -823,19 +823,19 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@i18n-chain/core@^0.4.9":
-  version "0.4.9"
-  resolved "https://registry.npmjs.org/@i18n-chain/core/-/core-0.4.9.tgz#31702d3a76e1677a26258564f41f90e2a6d8366c"
-  integrity sha512-B3fKgio5ev2O20bF6tqlz/x1TIIL2UP3QcQACbamg66tSNzXYnS8vtIz6i1QbgKd2Bxar+LiUz+ibjOryuY3Ag==
+"@i18n-chain/core@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/@i18n-chain/core/-/core-0.5.0.tgz#ba02564e0a271e5588b2b9b11da46012a28535de"
+  integrity sha512-wkEKq6/4Lr8cAnaW5AKoGaz7kT1SLLC+wnpnGRIZZwuJ1iMedNrB0HtjdoTGCIdmQNpW353NGJoo0Yxk2IFpRg==
   dependencies:
     tslib "^1.10.0"
 
-"@i18n-chain/react@^0.4.9":
-  version "0.4.9"
-  resolved "https://registry.npmjs.org/@i18n-chain/react/-/react-0.4.9.tgz#e95ab29b165b2581c4eacefb651c1cf62d90561c"
-  integrity sha512-6IqzD+OhSPmUKl7wHADiDHkE704EDUcZkFCkJKOFEhukp9Dv+xFZIbpUiaqJgGICaELo5oB6k2CPu0FxSc1DRQ==
+"@i18n-chain/react@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/@i18n-chain/react/-/react-0.5.0.tgz#e1af2501144da071519c7f59d931c0fa5d14d0e3"
+  integrity sha512-xKUMkPbnzEpcSB+dSE/OkdtDIiccLhhM4Mtnn51rT5yLCWJzsdmCUgYOFW98NbbVhdQx0byMQWe8lx+wc3QZ2w==
   dependencies:
-    "@i18n-chain/core" "^0.4.9"
+    "@i18n-chain/core" "^0.5.0"
     hoist-non-react-statics "^3.3.1"
     tslib "^1.10.0"
 
