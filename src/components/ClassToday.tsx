@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { I18nProvider } from 'react-i18n-chain';
+import { I18nProvider } from '@i18n-chain/react';
 import i18n from '../i18n';
 import moment from 'moment';
 

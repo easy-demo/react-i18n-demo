@@ -823,6 +823,22 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@i18n-chain/core@^0.4.9":
+  version "0.4.9"
+  resolved "https://registry.npmjs.org/@i18n-chain/core/-/core-0.4.9.tgz#31702d3a76e1677a26258564f41f90e2a6d8366c"
+  integrity sha512-B3fKgio5ev2O20bF6tqlz/x1TIIL2UP3QcQACbamg66tSNzXYnS8vtIz6i1QbgKd2Bxar+LiUz+ibjOryuY3Ag==
+  dependencies:
+    tslib "^1.10.0"
+
+"@i18n-chain/react@^0.4.9":
+  version "0.4.9"
+  resolved "https://registry.npmjs.org/@i18n-chain/react/-/react-0.4.9.tgz#e95ab29b165b2581c4eacefb651c1cf62d90561c"
+  integrity sha512-6IqzD+OhSPmUKl7wHADiDHkE704EDUcZkFCkJKOFEhukp9Dv+xFZIbpUiaqJgGICaELo5oB6k2CPu0FxSc1DRQ==
+  dependencies:
+    "@i18n-chain/core" "^0.4.9"
+    hoist-non-react-statics "^3.3.1"
+    tslib "^1.10.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -6471,14 +6487,6 @@ react-error-overlay@^6.0.3, react-error-overlay@^6.0.4:
   version "6.0.4"
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.4.tgz#0d165d6d27488e660bc08e57bdabaad741366f7a"
   integrity sha512-ueZzLmHltszTshDMwyfELDq8zOA803wQ1ZuzCccXa1m57k1PxSHfflPD5W9YIiTXLs0JTLzoj6o1LuM5N6zzNA==
-
-react-i18n-chain@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/react-i18n-chain/-/react-i18n-chain-0.3.0.tgz#a8b9b7a35bc089aa005a3ddf85886e84183b2949"
-  integrity sha512-ad//hbAftrPjpz3X9yFC2bEAP9kC0tjrS7+S3JdT7C0JJgrOA3nhQWxnsNnP+0s3oJJ72LJjTG3zeDV8H8zu2g==
-  dependencies:
-    hoist-non-react-statics "^3.3.1"
-    tslib "^1.10.0"
 
 react-is@^16.7.0, react-is@^16.8.1:
   version "16.12.0"

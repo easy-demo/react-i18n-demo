@@ -1,5 +1,5 @@
-import { createI18n } from 'react-i18n-chain';
 import en from './locales/en';
+import { createI18n } from '@i18n-chain/react';
 
 const i18n = createI18n({
     defaultLocale: {

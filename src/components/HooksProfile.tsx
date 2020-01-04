@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { useI18n } from 'react-i18n-chain';
+import { useI18n } from '@i18n-chain/react';
 import i18n from '../i18n';
 
 const HooksProfile: FunctionComponent = () => {
