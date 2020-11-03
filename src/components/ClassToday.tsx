@@ -1,11 +1,15 @@
 import React, { PureComponent } from 'react';
-import { I18nProvider } from '@i18n-chain/react';
+import { InjectedI18nProps } from '@i18n-chain/react';
 import i18n from '../i18n';
 import moment from 'moment';
 
-class ClassToday extends PureComponent {
+type Props = InjectedI18nProps<typeof i18n>;
+
+class ClassToday extends PureComponent<Props> {
     render() {
-        const today = i18n.today({
+        const { chain } = this.props;
+
+        const today = chain.today({
             time: moment(),
         });
 
@@ -13,4 +17,4 @@ class ClassToday extends PureComponent {
     }
 }
 
-export default I18nProvider(i18n)(ClassToday);
+export default i18n.hoc(ClassToday);

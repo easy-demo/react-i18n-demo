@@ -8,15 +8,15 @@ const App: FunctionComponent = () => {
     const [locale, setLocale] = useState('en');
     
     useEffect(() => {
-        return i18n._.listen(setLocale);
+        return i18n.listen(setLocale);
     }, []);
 
     const switchToEnglish = () => {
-        i18n._.locale('en');
+        i18n.locale('en');
     };
 
     const switchToChinese = () => {
-        i18n._.locale('zh');
+        i18n.locale('zh');
     };
 
     return (

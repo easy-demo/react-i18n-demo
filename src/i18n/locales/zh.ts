@@ -2,7 +2,7 @@ import { Locale } from './en';
 import moment, { Moment } from 'moment';
 
 const zh: Locale = {
-    profile: {
+    profile1: {
         info: [
             '我的名字是{{name}}，我来自{{country}}，',
             {

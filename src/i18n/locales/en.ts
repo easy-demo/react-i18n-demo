@@ -1,7 +1,7 @@
 import moment, { Moment } from 'moment';
 
 const en = {
-    profile: {
+    profile1: {
         info: [
             'My name is {{name}}, I come from {{country}}',
             {
